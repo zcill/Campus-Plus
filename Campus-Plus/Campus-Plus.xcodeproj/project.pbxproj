@@ -71,7 +71,7 @@
 		4C2C00BD1D10594F004F74B7 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
 		4C2C00BE1D10594F004F74B7 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
 		4C2C00C91D105D70004F74B7 /* ZCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarViewController.h; sourceTree = "<group>"; };
-		4C2C00CA1D105D70004F74B7 /* ZCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarViewController.m; sourceTree = "<group>"; };
+		4C2C00CA1D105D70004F74B7 /* ZCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
 		7AC8404A8DE4C2A729C610AA /* Pods-Campus-Plus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus.release.xcconfig"; sourceTree = "<group>"; };
 		A1FC6A8818E8BD41DD3D89D0 /* Pods-Campus-Plus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus.debug.xcconfig"; sourceTree = "<group>"; };
 		B34B7D34EB2ED161E50DB3AC /* libPods-Campus-Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,6 +333,7 @@
 				TargetAttributes = {
 					4B05C5CC1D0F07B90050A2AA = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6PRCTVW4F9;
 					};
 					4B05C5E51D0F07B90050A2AA = {
 						CreatedOnToolsVersion = 7.3;
@@ -686,6 +687,7 @@
 			baseConfigurationReference = A1FC6A8818E8BD41DD3D89D0 /* Pods-Campus-Plus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = $SRCROOT/$PRODUCT_NAME/prefix.pch;
 				INFOPLIST_FILE = "Campus-Plus/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -701,6 +703,7 @@
 			baseConfigurationReference = 7AC8404A8DE4C2A729C610AA /* Pods-Campus-Plus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = $SRCROOT/$PRODUCT_NAME/prefix.pch;
 				INFOPLIST_FILE = "Campus-Plus/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
