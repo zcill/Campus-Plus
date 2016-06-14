@@ -11,6 +11,7 @@ target 'Campus-Plus' do
   pod 'BlocksKit'
   pod 'ChameleonFramework'
   pod 'Fabric'
+  pod 'Masonry'
   pod 'MBProgressHUD'
   pod 'MJRefresh'
   pod 'Realm'
@@ -19,12 +20,12 @@ target 'Campus-Plus' do
   pod 'UMengAnalytics'
 
   target 'Campus-PlusTests' do
-    inherit! :search_paths
+    # inherit! :search_paths
     # Pods for testing
   end
 
   target 'Campus-PlusUITests' do
-    inherit! :search_paths
+    # inherit! :search_paths
     # Pods for testing
   end
 
