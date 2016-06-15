@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B0FC1415DE174B494A90D5A /* libPods-Campus-PlusUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF3466C2BAC0FAB18606DC9 /* libPods-Campus-PlusUITests.a */; };
-		43132EFC49A8CD82C8FE9FCF /* libPods-Campus-PlusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AB6D9C1896F454D220BDEB /* libPods-Campus-PlusTests.a */; };
+		08D891CAA16B546E32C18005 /* libPods-Campus-Plus-Campus-PlusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9736212F067040B6D3A651 /* libPods-Campus-Plus-Campus-PlusTests.a */; };
+		3B7A2751A696E8A9A2524564 /* libPods-Campus-Plus-Campus-PlusUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7732A92D9AF2C50D87D6EAA /* libPods-Campus-Plus-Campus-PlusUITests.a */; };
 		4B05C5D21D0F07B90050A2AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05C5D11D0F07B90050A2AA /* main.m */; };
 		4B05C5D51D0F07B90050A2AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05C5D41D0F07B90050A2AA /* AppDelegate.m */; };
 		4B05C5DB1D0F07B90050A2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B05C5D91D0F07B90050A2AA /* Main.storyboard */; };
@@ -16,14 +16,15 @@
 		4B05C5E01D0F07B90050A2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B05C5DE1D0F07B90050A2AA /* LaunchScreen.storyboard */; };
 		4B05C5EB1D0F07B90050A2AA /* Campus_PlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05C5EA1D0F07B90050A2AA /* Campus_PlusTests.m */; };
 		4B05C5F61D0F07B90050A2AA /* Campus_PlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05C5F51D0F07B90050A2AA /* Campus_PlusUITests.m */; };
-		4C2C00BF1D10594F004F74B7 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C00B41D10594F004F74B7 /* .gitkeep */; };
-		4C2C00C01D10594F004F74B7 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C00B61D10594F004F74B7 /* .gitkeep */; };
-		4C2C00C11D10594F004F74B7 /* BATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C00B81D10594F004F74B7 /* BATabBar.m */; };
-		4C2C00C21D10594F004F74B7 /* BATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C00BA1D10594F004F74B7 /* BATabBarController.m */; };
-		4C2C00C31D10594F004F74B7 /* BATabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C00BC1D10594F004F74B7 /* BATabBarItem.m */; };
-		4C2C00C41D10594F004F74B7 /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C00BE1D10594F004F74B7 /* UIColor+ColorWithHex.m */; };
-		4C2C00CB1D105D70004F74B7 /* ZCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C00CA1D105D70004F74B7 /* ZCTabBarViewController.m */; };
-		BA8D6FBB37DBA3E46094132D /* libPods-Campus-Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B34B7D34EB2ED161E50DB3AC /* libPods-Campus-Plus.a */; };
+		4B75B9291D117FD60022C06E /* ZCCourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9241D117FD60022C06E /* ZCCourseTableViewController.m */; };
+		4B75B92A1D117FD60022C06E /* ZCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9281D117FD60022C06E /* ZCTabBarViewController.m */; };
+		4B75B9391D117FDF0022C06E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4B75B92E1D117FDF0022C06E /* .gitkeep */; };
+		4B75B93A1D117FDF0022C06E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4B75B9301D117FDF0022C06E /* .gitkeep */; };
+		4B75B93B1D117FDF0022C06E /* BATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9321D117FDF0022C06E /* BATabBar.m */; };
+		4B75B93C1D117FDF0022C06E /* BATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9341D117FDF0022C06E /* BATabBarController.m */; };
+		4B75B93D1D117FDF0022C06E /* BATabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9361D117FDF0022C06E /* BATabBarItem.m */; };
+		4B75B93E1D117FDF0022C06E /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */; };
+		80A85C3915C1CD1019CA821F /* libPods-Campus-Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EF3466C2BAC0FAB18606DC9 /* libPods-Campus-PlusUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-PlusUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9736212F067040B6D3A651 /* libPods-Campus-Plus-Campus-PlusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus-Campus-PlusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3803E5A768E5BB13FA3334DB /* Pods-Campus-Plus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus.debug.xcconfig"; sourceTree = "<group>"; };
+		3BDC1AE817C57EE1A371748E /* Pods-Campus-Plus-Campus-PlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusTests/Pods-Campus-Plus-Campus-PlusTests.release.xcconfig"; sourceTree = "<group>"; };
+		42E52CCF765A51082DF8616D /* Pods-Campus-Plus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus.release.xcconfig"; sourceTree = "<group>"; };
 		4B05C5CD1D0F07B90050A2AA /* Campus-Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus-Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B05C5D11D0F07B90050A2AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B05C5D31D0F07B90050A2AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,26 +64,25 @@
 		4B05C5F51D0F07B90050A2AA /* Campus_PlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Campus_PlusUITests.m; sourceTree = "<group>"; };
 		4B05C5F71D0F07B90050A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B05C6031D0F4C010050A2AA /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
-		4C2C00B41D10594F004F74B7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4C2C00B61D10594F004F74B7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4C2C00B71D10594F004F74B7 /* BATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBar.h; sourceTree = "<group>"; };
-		4C2C00B81D10594F004F74B7 /* BATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBar.m; sourceTree = "<group>"; };
-		4C2C00B91D10594F004F74B7 /* BATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBarController.h; sourceTree = "<group>"; };
-		4C2C00BA1D10594F004F74B7 /* BATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarController.m; sourceTree = "<group>"; };
-		4C2C00BB1D10594F004F74B7 /* BATabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBarItem.h; sourceTree = "<group>"; };
-		4C2C00BC1D10594F004F74B7 /* BATabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarItem.m; sourceTree = "<group>"; };
-		4C2C00BD1D10594F004F74B7 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
-		4C2C00BE1D10594F004F74B7 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
-		4C2C00C91D105D70004F74B7 /* ZCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarViewController.h; sourceTree = "<group>"; };
-		4C2C00CA1D105D70004F74B7 /* ZCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
-		7AC8404A8DE4C2A729C610AA /* Pods-Campus-Plus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus.release.xcconfig"; sourceTree = "<group>"; };
-		A1FC6A8818E8BD41DD3D89D0 /* Pods-Campus-Plus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus.debug.xcconfig"; sourceTree = "<group>"; };
-		B34B7D34EB2ED161E50DB3AC /* libPods-Campus-Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB26F4E9C45ED27065511E8 /* Pods-Campus-PlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-PlusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-PlusUITests/Pods-Campus-PlusUITests.release.xcconfig"; sourceTree = "<group>"; };
-		EB5FF058B6816E25C57E3E10 /* Pods-Campus-PlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-PlusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-PlusTests/Pods-Campus-PlusTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED39266598BD78DB5FF278FB /* Pods-Campus-PlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-PlusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-PlusTests/Pods-Campus-PlusTests.release.xcconfig"; sourceTree = "<group>"; };
-		F03D2BAF5729FE3698830909 /* Pods-Campus-PlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-PlusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-PlusUITests/Pods-Campus-PlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F2AB6D9C1896F454D220BDEB /* libPods-Campus-PlusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-PlusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B75B9231D117FD60022C06E /* ZCCourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCourseTableViewController.h; sourceTree = "<group>"; };
+		4B75B9241D117FD60022C06E /* ZCCourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCourseTableViewController.m; sourceTree = "<group>"; };
+		4B75B9271D117FD60022C06E /* ZCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarViewController.h; sourceTree = "<group>"; };
+		4B75B9281D117FD60022C06E /* ZCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarViewController.m; sourceTree = "<group>"; };
+		4B75B92E1D117FDF0022C06E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4B75B9301D117FDF0022C06E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4B75B9311D117FDF0022C06E /* BATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBar.h; sourceTree = "<group>"; };
+		4B75B9321D117FDF0022C06E /* BATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBar.m; sourceTree = "<group>"; };
+		4B75B9331D117FDF0022C06E /* BATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBarController.h; sourceTree = "<group>"; };
+		4B75B9341D117FDF0022C06E /* BATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarController.m; sourceTree = "<group>"; };
+		4B75B9351D117FDF0022C06E /* BATabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBarItem.h; sourceTree = "<group>"; };
+		4B75B9361D117FDF0022C06E /* BATabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarItem.m; sourceTree = "<group>"; };
+		4B75B9371D117FDF0022C06E /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		9AF2AA719F7553AB158738AD /* Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7732A92D9AF2C50D87D6EAA /* libPods-Campus-Plus-Campus-PlusUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus-Campus-PlusUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60F84EA3630C9F209A74295 /* Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC224C7929833629C7DF291C /* Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusTests/Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8D6FBB37DBA3E46094132D /* libPods-Campus-Plus.a in Frameworks */,
+				80A85C3915C1CD1019CA821F /* libPods-Campus-Plus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43132EFC49A8CD82C8FE9FCF /* libPods-Campus-PlusTests.a in Frameworks */,
+				08D891CAA16B546E32C18005 /* libPods-Campus-Plus-Campus-PlusTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,26 +106,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0FC1415DE174B494A90D5A /* libPods-Campus-PlusUITests.a in Frameworks */,
+				3B7A2751A696E8A9A2524564 /* libPods-Campus-Plus-Campus-PlusUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09C39F15D25C952426EA6944 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A1FC6A8818E8BD41DD3D89D0 /* Pods-Campus-Plus.debug.xcconfig */,
-				7AC8404A8DE4C2A729C610AA /* Pods-Campus-Plus.release.xcconfig */,
-				EB5FF058B6816E25C57E3E10 /* Pods-Campus-PlusTests.debug.xcconfig */,
-				ED39266598BD78DB5FF278FB /* Pods-Campus-PlusTests.release.xcconfig */,
-				F03D2BAF5729FE3698830909 /* Pods-Campus-PlusUITests.debug.xcconfig */,
-				DAB26F4E9C45ED27065511E8 /* Pods-Campus-PlusUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		4B05C5C41D0F07B90050A2AA = {
 			isa = PBXGroup;
 			children = (
@@ -130,8 +120,8 @@
 				4B05C5E91D0F07B90050A2AA /* Campus-PlusTests */,
 				4B05C5F41D0F07B90050A2AA /* Campus-PlusUITests */,
 				4B05C5CE1D0F07B90050A2AA /* Products */,
-				09C39F15D25C952426EA6944 /* Pods */,
-				D4015F8491C270B2C90EE478 /* Frameworks */,
+				E936494354CB16DF38AFB225 /* Pods */,
+				F93F89FD6F6C4376A5171ABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,8 +138,8 @@
 		4B05C5CF1D0F07B90050A2AA /* Campus-Plus */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C00B11D10593B004F74B7 /* Vendor */,
-				4C2C00C51D10596A004F74B7 /* Classes */,
+				4B75B92B1D117FDF0022C06E /* Vendor */,
+				4B75B9211D117FD60022C06E /* Classes */,
 				4B05C5D31D0F07B90050A2AA /* AppDelegate.h */,
 				4B05C5D41D0F07B90050A2AA /* AppDelegate.m */,
 				4B05C5D91D0F07B90050A2AA /* Main.storyboard */,
@@ -188,70 +178,101 @@
 			path = "Campus-PlusUITests";
 			sourceTree = "<group>";
 		};
-		4C2C00B11D10593B004F74B7 /* Vendor */ = {
+		4B75B9211D117FD60022C06E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C00B21D10594F004F74B7 /* BATabBarController */,
-			);
-			name = Vendor;
-			sourceTree = "<group>";
-		};
-		4C2C00B21D10594F004F74B7 /* BATabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				4C2C00B31D10594F004F74B7 /* Assets */,
-				4C2C00B51D10594F004F74B7 /* Classes */,
-			);
-			path = BATabBarController;
-			sourceTree = "<group>";
-		};
-		4C2C00B31D10594F004F74B7 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				4C2C00B41D10594F004F74B7 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		4C2C00B51D10594F004F74B7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4C2C00B61D10594F004F74B7 /* .gitkeep */,
-				4C2C00B71D10594F004F74B7 /* BATabBar.h */,
-				4C2C00B81D10594F004F74B7 /* BATabBar.m */,
-				4C2C00B91D10594F004F74B7 /* BATabBarController.h */,
-				4C2C00BA1D10594F004F74B7 /* BATabBarController.m */,
-				4C2C00BB1D10594F004F74B7 /* BATabBarItem.h */,
-				4C2C00BC1D10594F004F74B7 /* BATabBarItem.m */,
-				4C2C00BD1D10594F004F74B7 /* UIColor+ColorWithHex.h */,
-				4C2C00BE1D10594F004F74B7 /* UIColor+ColorWithHex.m */,
+				4B75B9261D117FD60022C06E /* TabBar */,
+				4B75B9251D117FD60022C06E /* Home */,
+				4B75B9221D117FD60022C06E /* Course */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		4C2C00C51D10596A004F74B7 /* Classes */ = {
+		4B75B9221D117FD60022C06E /* Course */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C00CC1D105E46004F74B7 /* TabBarController */,
+				4B75B9231D117FD60022C06E /* ZCCourseTableViewController.h */,
+				4B75B9241D117FD60022C06E /* ZCCourseTableViewController.m */,
 			);
-			name = Classes;
+			path = Course;
 			sourceTree = "<group>";
 		};
-		4C2C00CC1D105E46004F74B7 /* TabBarController */ = {
+		4B75B9251D117FD60022C06E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C00C91D105D70004F74B7 /* ZCTabBarViewController.h */,
-				4C2C00CA1D105D70004F74B7 /* ZCTabBarViewController.m */,
 			);
-			name = TabBarController;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		D4015F8491C270B2C90EE478 /* Frameworks */ = {
+		4B75B9261D117FD60022C06E /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				B34B7D34EB2ED161E50DB3AC /* libPods-Campus-Plus.a */,
-				F2AB6D9C1896F454D220BDEB /* libPods-Campus-PlusTests.a */,
-				1EF3466C2BAC0FAB18606DC9 /* libPods-Campus-PlusUITests.a */,
+				4B75B9271D117FD60022C06E /* ZCTabBarViewController.h */,
+				4B75B9281D117FD60022C06E /* ZCTabBarViewController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4B75B92B1D117FDF0022C06E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4B75B92C1D117FDF0022C06E /* BATabBarController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4B75B92C1D117FDF0022C06E /* BATabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4B75B92D1D117FDF0022C06E /* Assets */,
+				4B75B92F1D117FDF0022C06E /* Classes */,
+			);
+			path = BATabBarController;
+			sourceTree = "<group>";
+		};
+		4B75B92D1D117FDF0022C06E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4B75B92E1D117FDF0022C06E /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4B75B92F1D117FDF0022C06E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B75B9301D117FDF0022C06E /* .gitkeep */,
+				4B75B9311D117FDF0022C06E /* BATabBar.h */,
+				4B75B9321D117FDF0022C06E /* BATabBar.m */,
+				4B75B9331D117FDF0022C06E /* BATabBarController.h */,
+				4B75B9341D117FDF0022C06E /* BATabBarController.m */,
+				4B75B9351D117FDF0022C06E /* BATabBarItem.h */,
+				4B75B9361D117FDF0022C06E /* BATabBarItem.m */,
+				4B75B9371D117FDF0022C06E /* UIColor+ColorWithHex.h */,
+				4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E936494354CB16DF38AFB225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3803E5A768E5BB13FA3334DB /* Pods-Campus-Plus.debug.xcconfig */,
+				42E52CCF765A51082DF8616D /* Pods-Campus-Plus.release.xcconfig */,
+				DC224C7929833629C7DF291C /* Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig */,
+				3BDC1AE817C57EE1A371748E /* Pods-Campus-Plus-Campus-PlusTests.release.xcconfig */,
+				D60F84EA3630C9F209A74295 /* Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig */,
+				9AF2AA719F7553AB158738AD /* Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F93F89FD6F6C4376A5171ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */,
+				2F9736212F067040B6D3A651 /* libPods-Campus-Plus-Campus-PlusTests.a */,
+				A7732A92D9AF2C50D87D6EAA /* libPods-Campus-Plus-Campus-PlusUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,13 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B05C5FA1D0F07B90050A2AA /* Build configuration list for PBXNativeTarget "Campus-Plus" */;
 			buildPhases = (
-				501B148A312026712CB71F44 /* 📦 Check Pods Manifest.lock */,
+				B6C96C33960E6322596A57E0 /* 📦 Check Pods Manifest.lock */,
 				4B05C5C91D0F07B90050A2AA /* Sources */,
 				4B05C5CA1D0F07B90050A2AA /* Frameworks */,
 				4B05C5CB1D0F07B90050A2AA /* Resources */,
-				C66D436A2B3A77E5639DC1CF /* 📦 Embed Pods Frameworks */,
-				610574CE7C99F347CE7C80FC /* 📦 Copy Pods Resources */,
-				BA313EEBB66CDD0314535249 /* Embed Pods Frameworks */,
+				EFAC475F9340534ABC0C8949 /* 📦 Embed Pods Frameworks */,
+				FE1384C720A760D4B8977043 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,12 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B05C5FD1D0F07B90050A2AA /* Build configuration list for PBXNativeTarget "Campus-PlusTests" */;
 			buildPhases = (
-				7BE07D8735F92659EC3865BA /* 📦 Check Pods Manifest.lock */,
+				54A61BBCCB1DC998363839C6 /* 📦 Check Pods Manifest.lock */,
 				4B05C5E21D0F07B90050A2AA /* Sources */,
 				4B05C5E31D0F07B90050A2AA /* Frameworks */,
 				4B05C5E41D0F07B90050A2AA /* Resources */,
-				612C2FEF2959ED1C0C25540A /* 📦 Embed Pods Frameworks */,
-				E90DA1E3EA89B1AD1BBB1400 /* 📦 Copy Pods Resources */,
+				D25366200141D8B467D4BBB4 /* 📦 Embed Pods Frameworks */,
+				CFE841FE306913397299407E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,11 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B05C6001D0F07B90050A2AA /* Build configuration list for PBXNativeTarget "Campus-PlusUITests" */;
 			buildPhases = (
-				229FB72D2248E2B2B574FCD3 /* 📦 Check Pods Manifest.lock */,
+				A4CF99A6F5B907DAC1E0A7A4 /* 📦 Check Pods Manifest.lock */,
 				4B05C5ED1D0F07B90050A2AA /* Sources */,
 				4B05C5EE1D0F07B90050A2AA /* Frameworks */,
 				4B05C5EF1D0F07B90050A2AA /* Resources */,
-				0C2EF046AA70B3E2CA4C70FD /* 📦 Copy Pods Resources */,
+				8D82F1998423A1FBA995967E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,9 +392,9 @@
 			files = (
 				4B05C5E01D0F07B90050A2AA /* LaunchScreen.storyboard in Resources */,
 				4B05C5DD1D0F07B90050A2AA /* Assets.xcassets in Resources */,
-				4C2C00C01D10594F004F74B7 /* .gitkeep in Resources */,
+				4B75B93A1D117FDF0022C06E /* .gitkeep in Resources */,
 				4B05C5DB1D0F07B90050A2AA /* Main.storyboard in Resources */,
-				4C2C00BF1D10594F004F74B7 /* .gitkeep in Resources */,
+				4B75B9391D117FDF0022C06E /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +415,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C2EF046AA70B3E2CA4C70FD /* 📦 Copy Pods Resources */ = {
+		54A61BBCCB1DC998363839C6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D82F1998423A1FBA995967E /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,10 +442,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-PlusUITests/Pods-Campus-PlusUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		229FB72D2248E2B2B574FCD3 /* 📦 Check Pods Manifest.lock */ = {
+		A4CF99A6F5B907DAC1E0A7A4 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,7 +460,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		501B148A312026712CB71F44 /* 📦 Check Pods Manifest.lock */ = {
+		B6C96C33960E6322596A57E0 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,7 +475,52 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		610574CE7C99F347CE7C80FC /* 📦 Copy Pods Resources */ = {
+		CFE841FE306913397299407E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusTests/Pods-Campus-Plus-Campus-PlusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25366200141D8B467D4BBB4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusTests/Pods-Campus-Plus-Campus-PlusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAC475F9340534ABC0C8949 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1384C720A760D4B8977043 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,81 +535,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		612C2FEF2959ED1C0C25540A /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-PlusTests/Pods-Campus-PlusTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BE07D8735F92659EC3865BA /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BA313EEBB66CDD0314535249 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C66D436A2B3A77E5639DC1CF /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Plus/Pods-Campus-Plus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E90DA1E3EA89B1AD1BBB1400 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-PlusTests/Pods-Campus-PlusTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -537,13 +542,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2C00C21D10594F004F74B7 /* BATabBarController.m in Sources */,
-				4C2C00C31D10594F004F74B7 /* BATabBarItem.m in Sources */,
-				4C2C00C11D10594F004F74B7 /* BATabBar.m in Sources */,
-				4C2C00CB1D105D70004F74B7 /* ZCTabBarViewController.m in Sources */,
-				4C2C00C41D10594F004F74B7 /* UIColor+ColorWithHex.m in Sources */,
+				4B75B93D1D117FDF0022C06E /* BATabBarItem.m in Sources */,
+				4B75B93E1D117FDF0022C06E /* UIColor+ColorWithHex.m in Sources */,
 				4B05C5D51D0F07B90050A2AA /* AppDelegate.m in Sources */,
 				4B05C5D21D0F07B90050A2AA /* main.m in Sources */,
+				4B75B9291D117FD60022C06E /* ZCCourseTableViewController.m in Sources */,
+				4B75B93B1D117FDF0022C06E /* BATabBar.m in Sources */,
+				4B75B93C1D117FDF0022C06E /* BATabBarController.m in Sources */,
+				4B75B92A1D117FD60022C06E /* ZCTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,7 +690,7 @@
 		};
 		4B05C5FB1D0F07B90050A2AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1FC6A8818E8BD41DD3D89D0 /* Pods-Campus-Plus.debug.xcconfig */;
+			baseConfigurationReference = 3803E5A768E5BB13FA3334DB /* Pods-Campus-Plus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -700,7 +706,7 @@
 		};
 		4B05C5FC1D0F07B90050A2AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC8404A8DE4C2A729C610AA /* Pods-Campus-Plus.release.xcconfig */;
+			baseConfigurationReference = 42E52CCF765A51082DF8616D /* Pods-Campus-Plus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -716,7 +722,7 @@
 		};
 		4B05C5FE1D0F07B90050A2AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB5FF058B6816E25C57E3E10 /* Pods-Campus-PlusTests.debug.xcconfig */;
+			baseConfigurationReference = DC224C7929833629C7DF291C /* Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Campus-PlusTests/Info.plist";
@@ -729,7 +735,7 @@
 		};
 		4B05C5FF1D0F07B90050A2AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED39266598BD78DB5FF278FB /* Pods-Campus-PlusTests.release.xcconfig */;
+			baseConfigurationReference = 3BDC1AE817C57EE1A371748E /* Pods-Campus-Plus-Campus-PlusTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Campus-PlusTests/Info.plist";
@@ -742,7 +748,7 @@
 		};
 		4B05C6011D0F07B90050A2AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F03D2BAF5729FE3698830909 /* Pods-Campus-PlusUITests.debug.xcconfig */;
+			baseConfigurationReference = D60F84EA3630C9F209A74295 /* Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Campus-PlusUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -754,7 +760,7 @@
 		};
 		4B05C6021D0F07B90050A2AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB26F4E9C45ED27065511E8 /* Pods-Campus-PlusUITests.release.xcconfig */;
+			baseConfigurationReference = 9AF2AA719F7553AB158738AD /* Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Campus-PlusUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

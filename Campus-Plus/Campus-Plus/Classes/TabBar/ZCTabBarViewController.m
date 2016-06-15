@@ -10,6 +10,8 @@
 #import "BATabBarController.h"
 #import "UIColor+ColorWithHex.h"
 
+#import "ZCCourseTableViewController.h"
+
 typedef NS_ENUM(NSInteger, BATabBarType) {
     BATabBarTypeWithText,
     BATabBarTypeNoText
@@ -41,7 +43,8 @@ typedef NS_ENUM(NSInteger, BATabBarType) {
         
         BATabBarItem *tabBarItem, *tabBarItem2, *tabBarItem3, *tabBarItem4;
         UIViewController *vc1 = [[UIViewController alloc] init];
-        UIViewController *vc2 = [[UIViewController alloc] init];
+//        ZCCourseTableViewController *vc2 = [[ZCCourseTableViewController alloc] init];
+        ZCCourseTableViewController *vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCCourseTableViewController"];
         UIViewController *vc3 = [[UIViewController alloc] init];
         UIViewController *vc4 = [[UIViewController alloc] init];
         vc1.view.backgroundColor = [UIColor colorWithHex:0x222B30];
@@ -58,7 +61,8 @@ typedef NS_ENUM(NSInteger, BATabBarType) {
         tabBarItem3 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon3_unselected"]
                                             selectedImage:[UIImage imageNamed:@"icon3_selected"]];
         
-        tabBarItem4 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon2_unselected"] selectedImage:[UIImage imageNamed:@"icon2_selected"]];
+        tabBarItem4 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon2_unselected"]
+                                            selectedImage:[UIImage imageNamed:@"icon2_selected"]];
         
         self.tabBarController = [[BATabBarController alloc] init];
         
@@ -73,7 +77,7 @@ typedef NS_ENUM(NSInteger, BATabBarType) {
         
         self.tabBarController.viewControllers = @[vc1,vc2,vc3, vc4];
         self.tabBarController.tabBarItems = @[tabBarItem,tabBarItem2,tabBarItem3, tabBarItem4];
-        [self.tabBarController setSelectedViewController:vc2 animated:NO];
+        [self.tabBarController setSelectedViewController:vc1 animated:NO];
         
         self.tabBarController.delegate = self;
         [self.view addSubview:self.tabBarController.view];
