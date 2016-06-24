@@ -35,7 +35,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZCCourseCell" forIndexPath:indexPath];
     
     // Configure the cell...
-    
+    cell.textLabel.text = @"Test Test Test";
     
     return cell;
 }

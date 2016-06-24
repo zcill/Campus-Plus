@@ -36,9 +36,9 @@ PODS:
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.0)
-  - Realm (0.98.2):
-    - Realm/Headers (= 0.98.2)
-  - Realm/Headers (0.98.2)
+  - Realm (1.0.0):
+    - Realm/Headers (= 1.0.0)
+  - Realm/Headers (1.0.0)
   - SCLAlertView-Objective-C (0.9.1)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
@@ -66,9 +66,11 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
-  Realm: 88a147fe04b8f07191a676b15c779b2b448991de
+  Realm: e15cd8e7c11d3e576f628ba0b7cb855269b4991c
   SCLAlertView-Objective-C: b99922177c20ff56305fe9c2987bcf0d38c9ebf7
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 3a2073fdd771c3b85cbb1dc4e1364eb72464bd67
+
+COCOAPODS: 1.0.0

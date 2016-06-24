@@ -24,6 +24,7 @@
 		4B75B93C1D117FDF0022C06E /* BATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9341D117FDF0022C06E /* BATabBarController.m */; };
 		4B75B93D1D117FDF0022C06E /* BATabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9361D117FDF0022C06E /* BATabBarItem.m */; };
 		4B75B93E1D117FDF0022C06E /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */; };
+		4BC98E071D1A371000207F92 /* ZCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98E061D1A371000207F92 /* ZCLoginViewController.m */; };
 		80A85C3915C1CD1019CA821F /* libPods-Campus-Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		4B75B9361D117FDF0022C06E /* BATabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarItem.m; sourceTree = "<group>"; };
 		4B75B9371D117FDF0022C06E /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
 		4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		4BC98E051D1A371000207F92 /* ZCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLoginViewController.h; sourceTree = "<group>"; };
+		4BC98E061D1A371000207F92 /* ZCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLoginViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		9AF2AA719F7553AB158738AD /* Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A7732A92D9AF2C50D87D6EAA /* libPods-Campus-Plus-Campus-PlusUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus-Campus-PlusUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +141,7 @@
 		4B05C5CF1D0F07B90050A2AA /* Campus-Plus */ = {
 			isa = PBXGroup;
 			children = (
+				4BC98E041D1A355100207F92 /* Test */,
 				4B75B92B1D117FDF0022C06E /* Vendor */,
 				4B75B9211D117FD60022C06E /* Classes */,
 				4B05C5D31D0F07B90050A2AA /* AppDelegate.h */,
@@ -200,6 +204,8 @@
 		4B75B9251D117FD60022C06E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4BC98E051D1A371000207F92 /* ZCLoginViewController.h */,
+				4BC98E061D1A371000207F92 /* ZCLoginViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -252,6 +258,13 @@
 				4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		4BC98E041D1A355100207F92 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Test;
 			sourceTree = "<group>";
 		};
 		E936494354CB16DF38AFB225 /* Pods */ = {
@@ -547,6 +560,7 @@
 				4B05C5D51D0F07B90050A2AA /* AppDelegate.m in Sources */,
 				4B05C5D21D0F07B90050A2AA /* main.m in Sources */,
 				4B75B9291D117FD60022C06E /* ZCCourseTableViewController.m in Sources */,
+				4BC98E071D1A371000207F92 /* ZCLoginViewController.m in Sources */,
 				4B75B93B1D117FDF0022C06E /* BATabBar.m in Sources */,
 				4B75B93C1D117FDF0022C06E /* BATabBarController.m in Sources */,
 				4B75B92A1D117FD60022C06E /* ZCTabBarViewController.m in Sources */,

@@ -10,6 +10,7 @@
 #import "BATabBarController.h"
 #import "UIColor+ColorWithHex.h"
 
+#import "ZCLoginViewController.h"
 #import "ZCCourseTableViewController.h"
 
 typedef NS_ENUM(NSInteger, BATabBarType) {
@@ -42,7 +43,8 @@ typedef NS_ENUM(NSInteger, BATabBarType) {
     if(self.firstTime){
         
         BATabBarItem *tabBarItem, *tabBarItem2, *tabBarItem3, *tabBarItem4;
-        UIViewController *vc1 = [[UIViewController alloc] init];
+//        UIViewController *vc1 = [[UIViewController alloc] init];
+        ZCLoginViewController *vc1 = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCLoginViewController"];
 //        ZCCourseTableViewController *vc2 = [[ZCCourseTableViewController alloc] init];
         ZCCourseTableViewController *vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCCourseTableViewController"];
         UIViewController *vc3 = [[UIViewController alloc] init];
