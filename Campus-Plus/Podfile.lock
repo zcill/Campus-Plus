@@ -44,6 +44,7 @@ PODS:
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - UMengAnalytics (3.6.6)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
@@ -57,6 +58,7 @@ DEPENDENCIES:
   - SCLAlertView-Objective-C
   - SDWebImage
   - UMengAnalytics
+  - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -70,7 +72,8 @@ SPEC CHECKSUMS:
   SCLAlertView-Objective-C: b99922177c20ff56305fe9c2987bcf0d38c9ebf7
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 3a2073fdd771c3b85cbb1dc4e1364eb72464bd67
+PODFILE CHECKSUM: 372bac5a9e647cb07eb7863f6b3424cdde3aec0f
 
 COCOAPODS: 1.0.0

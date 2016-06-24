@@ -894,3 +894,19 @@ Campus-Plus/Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-C
 Campus-Plus/Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig
 Campus-Plus/Pods/UMengAnalytics/umsdk_IOS_analytics_idfa_v3.6.6/UMAnalytics_Sdk_3.6.6/libMobClickLibrary.a
 Campus-Plus/Pods/UMengAnalytics/umsdk_IOS_analytics_idfa_v3.6.6/UMAnalytics_Sdk_3.6.6/MobClick.h
+Campus-Plus/Pods/Headers/Private/YYModel/NSObject+YYModel.h
+Campus-Plus/Pods/Headers/Private/YYModel/YYClassInfo.h
+Campus-Plus/Pods/Headers/Private/YYModel/YYModel.h
+Campus-Plus/Pods/Headers/Public/YYModel/NSObject+YYModel.h
+Campus-Plus/Pods/Headers/Public/YYModel/YYClassInfo.h
+Campus-Plus/Pods/Headers/Public/YYModel/YYModel.h
+Campus-Plus/Pods/Target Support Files/YYModel/YYModel-dummy.m
+Campus-Plus/Pods/Target Support Files/YYModel/YYModel-prefix.pch
+Campus-Plus/Pods/Target Support Files/YYModel/YYModel.xcconfig
+Campus-Plus/Pods/YYModel/LICENSE
+Campus-Plus/Pods/YYModel/README.md
+Campus-Plus/Pods/YYModel/YYModel/NSObject+YYModel.h
+Campus-Plus/Pods/YYModel/YYModel/NSObject+YYModel.m
+Campus-Plus/Pods/YYModel/YYModel/YYClassInfo.h
+Campus-Plus/Pods/YYModel/YYModel/YYClassInfo.m
+Campus-Plus/Pods/YYModel/YYModel/YYModel.h

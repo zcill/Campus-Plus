@@ -18,6 +18,7 @@ target 'Campus-Plus' do
   pod 'SDWebImage'
   pod 'SCLAlertView-Objective-C'
   pod 'UMengAnalytics'
+  pod 'YYModel'
 
   target 'Campus-PlusTests' do
     # inherit! :search_paths
