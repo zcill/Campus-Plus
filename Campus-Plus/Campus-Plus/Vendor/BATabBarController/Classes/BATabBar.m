@@ -115,8 +115,15 @@ static NSInteger const BAUniqueTag = 57690;
 - (void) customInit {
     
     //set default properties
-    self.barItemStrokeColor = [UIColor colorWithHex:0xF23555];
-    self.backgroundColor = [UIColor colorWithHex:0x1C2129];
+    
+    // 线的颜色
+//    self.barItemStrokeColor = [UIColor colorWithHex:0xF23555];
+    self.barItemStrokeColor = [UIColor colorWithHex:0x000000];
+    
+    // tabbar的背景颜色
+//    self.backgroundColor = [UIColor colorWithHex:0x1C2129];
+    self.backgroundColor = [UIColor colorWithHex:0xE0E5EA];
+    
     self.barItemLineWidth = 2;
     
     //create container for animations
