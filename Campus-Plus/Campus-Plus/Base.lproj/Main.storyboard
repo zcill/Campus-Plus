@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -32,12 +33,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="cVY-sv-5nt">
+                            <frame key="frameInset" minY="64" width="375" height="79"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SP-63-x3d">
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="45" maxX="40" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="20"/>
+                                    <state key="normal" title="课表" image="headview_course">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="td2-2i-EU7">
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="45" maxX="40" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="20"/>
+                                    <state key="normal" title="成绩" image="headview_score">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cih-Mz-EMH">
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="45" maxX="40" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="20"/>
+                                    <state key="normal" title="考试" image="headview_examine">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="cih-Mz-EMH" firstAttribute="height" secondItem="9SP-63-x3d" secondAttribute="height" id="1ae-6W-DpT"/>
+                                <constraint firstItem="9SP-63-x3d" firstAttribute="top" secondItem="cVY-sv-5nt" secondAttribute="top" id="9qP-SZ-Y2S"/>
+                                <constraint firstItem="9SP-63-x3d" firstAttribute="leading" secondItem="cVY-sv-5nt" secondAttribute="leading" id="FX3-Wh-9hi"/>
+                                <constraint firstItem="td2-2i-EU7" firstAttribute="leading" secondItem="cih-Mz-EMH" secondAttribute="trailing" id="Fxd-dS-TK6"/>
+                                <constraint firstItem="td2-2i-EU7" firstAttribute="width" secondItem="cih-Mz-EMH" secondAttribute="width" id="KT3-Sq-oR2"/>
+                                <constraint firstItem="9SP-63-x3d" firstAttribute="height" secondItem="cVY-sv-5nt" secondAttribute="height" id="LwW-lb-CFB"/>
+                                <constraint firstItem="cih-Mz-EMH" firstAttribute="leading" secondItem="9SP-63-x3d" secondAttribute="trailing" id="Oka-dU-nLE"/>
+                                <constraint firstItem="cih-Mz-EMH" firstAttribute="width" secondItem="9SP-63-x3d" secondAttribute="width" id="Zif-km-of5"/>
+                                <constraint firstItem="td2-2i-EU7" firstAttribute="height" secondItem="cih-Mz-EMH" secondAttribute="height" id="bn6-cs-Kl1"/>
+                                <constraint firstItem="cih-Mz-EMH" firstAttribute="top" secondItem="cVY-sv-5nt" secondAttribute="top" id="iPt-pi-LBM"/>
+                                <constraint firstItem="9SP-63-x3d" firstAttribute="width" secondItem="cVY-sv-5nt" secondAttribute="width" multiplier="1:3" id="qGR-WC-D3o"/>
+                                <constraint firstItem="td2-2i-EU7" firstAttribute="top" secondItem="cVY-sv-5nt" secondAttribute="top" id="xsg-s7-lNe"/>
+                            </constraints>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZCCourseCell" id="LIr-sT-mbb">
-                                <frame key="frameInset" minY="28" width="375" height="44"/>
+                                <frame key="frameInset" minY="171" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LIr-sT-mbb" id="gzT-6j-Ku6">
-                                    <frame key="frameInset" width="375" height="43.5"/>
+                                    <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -47,10 +90,11 @@
                             <outlet property="delegate" destination="yje-jE-Ejx" id="SaM-73-O4d"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Wqu-Tn-hfA"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5sL-Iu-jkb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969" y="411"/>
+            <point key="canvasLocation" x="1744.8" y="410.64467766116945"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Oly-8p-Dcy">
@@ -143,7 +187,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Gs-I6-j7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1645.5999999999999" y="410.64467766116945"/>
+            <point key="canvasLocation" x="2446" y="411"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7sw-wN-aJP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nRX-12-M0j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Zb-CW-1PR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yje-jE-Ejx" kind="relationship" relationship="rootViewController" id="NWw-Gk-XVg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5DY-IX-S6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968.79999999999995" y="410.64467766116945"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="headview_course" width="40" height="40"/>
+        <image name="headview_examine" width="40" height="40"/>
+        <image name="headview_score" width="40" height="40"/>
+    </resources>
 </document>
