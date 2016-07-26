@@ -44,15 +44,23 @@ typedef NS_ENUM(NSInteger, BATabBarType) {
         
         BATabBarItem *tabBarItem, *tabBarItem2, *tabBarItem3, *tabBarItem4;
 //        UIViewController *vc1 = [[UIViewController alloc] init];
-        ZCLoginViewController *vc1 = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCLoginViewController"];
-//        ZCCourseTableViewController *vc2 = [[ZCCourseTableViewController alloc] init];
-        ZCCourseTableViewController *vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCCourseTableViewController"];
+        
+        ZCLoginViewController *loginVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCLoginViewController"];
+        UINavigationController *loginNavi = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        
+        ZCCourseTableViewController *courseVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ZCCourseTableViewController"];
+        UINavigationController *courseNavi = [[UINavigationController alloc] initWithRootViewController:courseVC];
+        
         UIViewController *vc3 = [[UIViewController alloc] init];
         UIViewController *vc4 = [[UIViewController alloc] init];
-        vc1.view.backgroundColor = [UIColor colorWithHex:0x222B30];
-        vc2.view.backgroundColor = [UIColor colorWithHex:0x222B30];
-        vc3.view.backgroundColor = [UIColor colorWithHex:0x222B30];
-        vc4.view.backgroundColor = [UIColor colorWithHex:0x222B30];
+        
+//        loginVC.view.backgroundColor = [UIColor colorWithHex:0x222B30];
+//        courseVC.view.backgroundColor = [UIColor colorWithHex:0x222B30];
+//        vc3.view.backgroundColor = [UIColor colorWithHex:0x222B30];
+//        vc4.view.backgroundColor = [UIColor colorWithHex:0x222B30];
+        
+        loginVC.view.backgroundColor = [UIColor whiteColor];
+        courseVC.view.backgroundColor = [UIColor whiteColor];
         
         tabBarItem = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"tabbar_home_unselected"]
                                            selectedImage:[UIImage imageNamed:@"tabbar_home_selected"]];
@@ -77,9 +85,9 @@ typedef NS_ENUM(NSInteger, BATabBarType) {
         //Tab bar line width example
 //                self.tabBarController.tabBarItemLineWidth = 1.0;
         
-        self.tabBarController.viewControllers = @[vc1,vc2,vc3, vc4];
+        self.tabBarController.viewControllers = @[loginNavi, courseNavi, vc3, vc4];
         self.tabBarController.tabBarItems = @[tabBarItem,tabBarItem2,tabBarItem3, tabBarItem4];
-        [self.tabBarController setSelectedViewController:vc1 animated:NO];
+        [self.tabBarController setSelectedViewController:courseNavi animated:NO];
         
         self.tabBarController.delegate = self;
         [self.view addSubview:self.tabBarController.view];

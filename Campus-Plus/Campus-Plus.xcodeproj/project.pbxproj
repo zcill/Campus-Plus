@@ -18,6 +18,7 @@
 		4B05C5F61D0F07B90050A2AA /* Campus_PlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05C5F51D0F07B90050A2AA /* Campus_PlusUITests.m */; };
 		4B2020D11D3FADE200257003 /* AppDelegate+ZCShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2020D01D3FADE200257003 /* AppDelegate+ZCShare.m */; };
 		4B389D9B1D40FC8B0017930C /* ZCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B389D9A1D40FC8B0017930C /* ZCFileManager.m */; };
+		4B7146D31D4799CB00ACC1B6 /* ZCJNHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7146D21D4799CB00ACC1B6 /* ZCJNHttpTool.m */; };
 		4B75B9291D117FD60022C06E /* ZCCourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9241D117FD60022C06E /* ZCCourseTableViewController.m */; };
 		4B75B92A1D117FD60022C06E /* ZCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9281D117FD60022C06E /* ZCTabBarViewController.m */; };
 		4B75B9391D117FDF0022C06E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4B75B92E1D117FDF0022C06E /* .gitkeep */; };
@@ -72,6 +73,9 @@
 		4B389D941D40F7CA0017930C /* ZCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSingleton.h; sourceTree = "<group>"; };
 		4B389D991D40FC8B0017930C /* ZCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFileManager.h; sourceTree = "<group>"; };
 		4B389D9A1D40FC8B0017930C /* ZCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFileManager.m; sourceTree = "<group>"; };
+		4B7146D11D4799CB00ACC1B6 /* ZCJNHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJNHttpTool.h; sourceTree = "<group>"; };
+		4B7146D21D4799CB00ACC1B6 /* ZCJNHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJNHttpTool.m; sourceTree = "<group>"; wrapsLines = 0; };
+		4B7146D51D479CB400ACC1B6 /* ZCJxnuDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCJxnuDefines.h; sourceTree = "<group>"; };
 		4B75B9231D117FD60022C06E /* ZCCourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCourseTableViewController.h; sourceTree = "<group>"; };
 		4B75B9241D117FD60022C06E /* ZCCourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCourseTableViewController.m; sourceTree = "<group>"; };
 		4B75B9271D117FD60022C06E /* ZCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarViewController.h; sourceTree = "<group>"; };
@@ -203,7 +207,9 @@
 		4B389D8F1D40F7020017930C /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				4B7146D51D479CB400ACC1B6 /* ZCJxnuDefines.h */,
 				4B389D941D40F7CA0017930C /* ZCSingleton.h */,
+				4B7146D01D47990100ACC1B6 /* ZCHttpTool */,
 				4B389D981D40FC780017930C /* ZCFileManager */,
 			);
 			name = Util;
@@ -216,6 +222,15 @@
 				4B389D9A1D40FC8B0017930C /* ZCFileManager.m */,
 			);
 			name = ZCFileManager;
+			sourceTree = "<group>";
+		};
+		4B7146D01D47990100ACC1B6 /* ZCHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				4B7146D11D4799CB00ACC1B6 /* ZCJNHttpTool.h */,
+				4B7146D21D4799CB00ACC1B6 /* ZCJNHttpTool.m */,
+			);
+			name = ZCHttpTool;
 			sourceTree = "<group>";
 		};
 		4B75B9211D117FD60022C06E /* Classes */ = {
@@ -595,6 +610,7 @@
 				4B75B93E1D117FDF0022C06E /* UIColor+ColorWithHex.m in Sources */,
 				4B05C5D51D0F07B90050A2AA /* AppDelegate.m in Sources */,
 				4B05C5D21D0F07B90050A2AA /* main.m in Sources */,
+				4B7146D31D4799CB00ACC1B6 /* ZCJNHttpTool.m in Sources */,
 				4B75B9291D117FD60022C06E /* ZCCourseTableViewController.m in Sources */,
 				4BC98E071D1A371000207F92 /* ZCLoginViewController.m in Sources */,
 				4B389D9B1D40FC8B0017930C /* ZCFileManager.m in Sources */,

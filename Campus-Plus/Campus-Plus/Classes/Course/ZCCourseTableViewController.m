@@ -25,6 +25,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - HeaderView button Action
+
+- (IBAction)scoreButtonClick:(UIButton *)sender {
+    NSLog(@"score");
+}
+
+- (IBAction)examButtonClick:(UIButton *)sender {
+    NSLog(@"exam");
+}
+
+- (IBAction)courseButtonClick:(UIButton *)sender {
+    NSLog(@"course");
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

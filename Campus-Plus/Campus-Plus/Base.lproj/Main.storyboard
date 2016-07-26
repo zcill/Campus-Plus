@@ -34,29 +34,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="cVY-sv-5nt">
-                            <frame key="frameInset" minY="64" width="375" height="79"/>
+                            <frame key="frameInset" minY="64" width="375" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SP-63-x3d">
-                                    <inset key="titleEdgeInsets" minX="0.0" minY="45" maxX="40" maxY="0.0"/>
-                                    <inset key="imageEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="20"/>
                                     <state key="normal" title="课表" image="headview_course">
                                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="courseButtonClick:" destination="yje-jE-Ejx" eventType="touchUpInside" id="dqu-cG-Oyt"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="td2-2i-EU7">
-                                    <inset key="titleEdgeInsets" minX="0.0" minY="45" maxX="40" maxY="0.0"/>
-                                    <inset key="imageEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="20"/>
                                     <state key="normal" title="成绩" image="headview_score">
                                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="scoreButtonClick:" destination="yje-jE-Ejx" eventType="touchUpInside" id="ZiD-B7-ah4"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cih-Mz-EMH">
-                                    <inset key="titleEdgeInsets" minX="0.0" minY="45" maxX="40" maxY="0.0"/>
-                                    <inset key="imageEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="20"/>
                                     <state key="normal" title="考试" image="headview_examine">
                                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="examButtonClick:" destination="yje-jE-Ejx" eventType="touchUpInside" id="9lX-LL-fla"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -77,7 +80,7 @@
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZCCourseCell" id="LIr-sT-mbb">
-                                <frame key="frameInset" minY="171" width="375" height="44"/>
+                                <frame key="frameInset" minY="182" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LIr-sT-mbb" id="gzT-6j-Ku6">
                                     <frame key="frameInset" width="375" height="43"/>
