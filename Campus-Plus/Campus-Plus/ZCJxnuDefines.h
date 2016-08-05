@@ -16,6 +16,14 @@
 
 #pragma mark - >>>>>>>>>>>>> 常量宏
 
+// jxnu 教务在线jwc 相关url
+#define JxnuJwcOfficalUrl @"http://jwc.jxnu.edu.cn"
+#define JxnuJwcLoginUrl @"http://jwc.jxnu.edu.cn/Default_Login.aspx?preurl="
+#define JxnuJwcCourseUrl @"http://jwc.jxnu.edu.cn/User/default.aspx?&&code=111&uctl=MyControl%5cxfz_kcb.ascx&MyAction=Personal"
+
+// cookie
+#define JxnuJwcCookieDomain @"jwc.jxnu.edu.cn"
+
 // LeanCloud初始化
 #define LeanCloudAppID @"可以在Leancloud自己申请一个填进去"
 #define LeanCloudAppKey @"可以在Leancloud自己申请一个填进去"
