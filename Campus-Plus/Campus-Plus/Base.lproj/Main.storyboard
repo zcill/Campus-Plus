@@ -42,7 +42,7 @@
                                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="courseButtonClick:" destination="yje-jE-Ejx" eventType="touchUpInside" id="dqu-cG-Oyt"/>
+                                        <action selector="checkUserIsAlreadyLoginWithButton:" destination="yje-jE-Ejx" eventType="touchUpInside" id="65E-1e-7x7"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="td2-2i-EU7">
@@ -50,7 +50,7 @@
                                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="scoreButtonClick:" destination="yje-jE-Ejx" eventType="touchUpInside" id="ZiD-B7-ah4"/>
+                                        <action selector="checkUserIsAlreadyLoginWithButton:" destination="yje-jE-Ejx" eventType="touchUpInside" id="oOy-qc-1Fl"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cih-Mz-EMH">
@@ -58,7 +58,7 @@
                                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="examButtonClick:" destination="yje-jE-Ejx" eventType="touchUpInside" id="9lX-LL-fla"/>
+                                        <action selector="checkUserIsAlreadyLoginWithButton:" destination="yje-jE-Ejx" eventType="touchUpInside" id="Kxe-yW-DD5"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -83,7 +83,7 @@
                                 <frame key="frameInset" minY="182" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LIr-sT-mbb" id="gzT-6j-Ku6">
-                                    <frame key="frameInset" width="375" height="44"/>
+                                    <frame key="frameInset" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>

@@ -7,6 +7,7 @@
 //
 
 #import "ZCCourseTableViewController.h"
+#import "ZCJNHttpTool.h"
 
 @interface ZCCourseTableViewController ()
 
@@ -25,18 +26,36 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - public method
+
 #pragma mark - HeaderView button Action
 
-- (IBAction)scoreButtonClick:(UIButton *)sender {
-    NSLog(@"score");
-}
-
-- (IBAction)examButtonClick:(UIButton *)sender {
-    NSLog(@"exam");
-}
-
-- (IBAction)courseButtonClick:(UIButton *)sender {
-    NSLog(@"course");
+- (IBAction)checkUserIsAlreadyLoginWithButton:(UIButton *)sender {
+    
+    if (![ZCJNHttpTool sharedZCJNHttpTool].jxnu_isLogin) {
+        
+        // 未登录
+        // 弹出登录ViewController
+        
+    } else {
+        
+        // user is already login
+        if ([sender.currentTitle isEqualToString:@"课表"]) {
+            
+            NSLog(@"course, sender title: %@", sender.currentTitle);
+            
+        } else if ([sender.currentTitle isEqualToString:@"考试"]) {
+            
+            NSLog(@"exam, sender title: %@", sender.currentTitle);
+            
+        } else if ([sender.currentTitle isEqualToString:@"成绩"]) {
+            
+            NSLog(@"score, sender title: %@", sender.currentTitle);
+            
+        }
+        
+    }
+    
 }
 
 #pragma mark - Table view data source
