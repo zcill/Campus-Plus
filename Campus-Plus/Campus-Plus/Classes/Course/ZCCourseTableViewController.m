@@ -36,6 +36,7 @@
         
         // 未登录
         // 弹出登录ViewController
+        DLog(@"未登录");
         
     } else {
         
