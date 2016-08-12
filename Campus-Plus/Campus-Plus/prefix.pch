@@ -17,4 +17,6 @@
 #import <BlocksKit/BlocksKit+UIKit.h>
 #import <ChameleonFramework/Chameleon.h>
 
+#import "ZCJxnuDefines.h"
+
 #endif /* prefix_pch */
