@@ -1035,3 +1035,96 @@ Campus-Plus/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecordXcode7Compatibili
 Campus-Plus/Pods/Target Support Files/MagicalRecord/MagicalRecord-dummy.m
 Campus-Plus/Pods/Target Support Files/MagicalRecord/MagicalRecord-prefix.pch
 Campus-Plus/Pods/Target Support Files/MagicalRecord/MagicalRecord.xcconfig
+Campus-Plus/Pods/Headers/Private/Mantle/EXTKeyPathCoding.h
+Campus-Plus/Pods/Headers/Private/Mantle/EXTRuntimeExtensions.h
+Campus-Plus/Pods/Headers/Private/Mantle/EXTScope.h
+Campus-Plus/Pods/Headers/Private/Mantle/Mantle.h
+Campus-Plus/Pods/Headers/Private/Mantle/metamacros.h
+Campus-Plus/Pods/Headers/Private/Mantle/MTLJSONAdapter.h
+Campus-Plus/Pods/Headers/Private/Mantle/MTLModel+NSCoding.h
+Campus-Plus/Pods/Headers/Private/Mantle/MTLModel.h
+Campus-Plus/Pods/Headers/Private/Mantle/MTLReflection.h
+Campus-Plus/Pods/Headers/Private/Mantle/MTLTransformerErrorHandling.h
+Campus-Plus/Pods/Headers/Private/Mantle/MTLValueTransformer.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSArray+MTLManipulationAdditions.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSDictionary+MTLJSONKeyPath.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSDictionary+MTLManipulationAdditions.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSDictionary+MTLMappingAdditions.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSError+MTLModelException.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSObject+MTLComparisonAdditions.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSValueTransformer+MTLInversionAdditions.h
+Campus-Plus/Pods/Headers/Private/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h
+Campus-Plus/Pods/Headers/Private/MTLManagedObjectAdapter/mtl_moa_EXTKeyPathCoding.h
+Campus-Plus/Pods/Headers/Private/MTLManagedObjectAdapter/mtl_moa_EXTRuntimeExtensions.h
+Campus-Plus/Pods/Headers/Private/MTLManagedObjectAdapter/mtl_moa_EXTScope.h
+Campus-Plus/Pods/Headers/Private/MTLManagedObjectAdapter/mtl_moa_metamacros.h
+Campus-Plus/Pods/Headers/Private/MTLManagedObjectAdapter/MTLManagedObjectAdapter.h
+Campus-Plus/Pods/Headers/Public/Mantle/Mantle.h
+Campus-Plus/Pods/Headers/Public/Mantle/MTLJSONAdapter.h
+Campus-Plus/Pods/Headers/Public/Mantle/MTLModel+NSCoding.h
+Campus-Plus/Pods/Headers/Public/Mantle/MTLModel.h
+Campus-Plus/Pods/Headers/Public/Mantle/MTLReflection.h
+Campus-Plus/Pods/Headers/Public/Mantle/MTLTransformerErrorHandling.h
+Campus-Plus/Pods/Headers/Public/Mantle/MTLValueTransformer.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSArray+MTLManipulationAdditions.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSDictionary+MTLJSONKeyPath.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSDictionary+MTLManipulationAdditions.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSDictionary+MTLMappingAdditions.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSError+MTLModelException.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSObject+MTLComparisonAdditions.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSValueTransformer+MTLInversionAdditions.h
+Campus-Plus/Pods/Headers/Public/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h
+Campus-Plus/Pods/Headers/Public/MTLManagedObjectAdapter/MTLManagedObjectAdapter.h
+Campus-Plus/Pods/Mantle/LICENSE.md
+Campus-Plus/Pods/Mantle/README.md
+Campus-Plus/Pods/Mantle/Mantle/Mantle.h
+Campus-Plus/Pods/Mantle/Mantle/MTLJSONAdapter.h
+Campus-Plus/Pods/Mantle/Mantle/MTLJSONAdapter.m
+Campus-Plus/Pods/Mantle/Mantle/MTLModel+NSCoding.h
+Campus-Plus/Pods/Mantle/Mantle/MTLModel+NSCoding.m
+Campus-Plus/Pods/Mantle/Mantle/MTLModel.h
+Campus-Plus/Pods/Mantle/Mantle/MTLModel.m
+Campus-Plus/Pods/Mantle/Mantle/MTLReflection.h
+Campus-Plus/Pods/Mantle/Mantle/MTLReflection.m
+Campus-Plus/Pods/Mantle/Mantle/MTLTransformerErrorHandling.h
+Campus-Plus/Pods/Mantle/Mantle/MTLTransformerErrorHandling.m
+Campus-Plus/Pods/Mantle/Mantle/MTLValueTransformer.h
+Campus-Plus/Pods/Mantle/Mantle/MTLValueTransformer.m
+Campus-Plus/Pods/Mantle/Mantle/NSArray+MTLManipulationAdditions.h
+Campus-Plus/Pods/Mantle/Mantle/NSArray+MTLManipulationAdditions.m
+Campus-Plus/Pods/Mantle/Mantle/NSDictionary+MTLJSONKeyPath.h
+Campus-Plus/Pods/Mantle/Mantle/NSDictionary+MTLJSONKeyPath.m
+Campus-Plus/Pods/Mantle/Mantle/NSDictionary+MTLManipulationAdditions.h
+Campus-Plus/Pods/Mantle/Mantle/NSDictionary+MTLManipulationAdditions.m
+Campus-Plus/Pods/Mantle/Mantle/NSDictionary+MTLMappingAdditions.h
+Campus-Plus/Pods/Mantle/Mantle/NSDictionary+MTLMappingAdditions.m
+Campus-Plus/Pods/Mantle/Mantle/NSError+MTLModelException.h
+Campus-Plus/Pods/Mantle/Mantle/NSError+MTLModelException.m
+Campus-Plus/Pods/Mantle/Mantle/NSObject+MTLComparisonAdditions.h
+Campus-Plus/Pods/Mantle/Mantle/NSObject+MTLComparisonAdditions.m
+Campus-Plus/Pods/Mantle/Mantle/NSValueTransformer+MTLInversionAdditions.h
+Campus-Plus/Pods/Mantle/Mantle/NSValueTransformer+MTLInversionAdditions.m
+Campus-Plus/Pods/Mantle/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h
+Campus-Plus/Pods/Mantle/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m
+Campus-Plus/Pods/Mantle/Mantle/extobjc/EXTKeyPathCoding.h
+Campus-Plus/Pods/Mantle/Mantle/extobjc/EXTRuntimeExtensions.h
+Campus-Plus/Pods/Mantle/Mantle/extobjc/EXTRuntimeExtensions.m
+Campus-Plus/Pods/Mantle/Mantle/extobjc/EXTScope.h
+Campus-Plus/Pods/Mantle/Mantle/extobjc/EXTScope.m
+Campus-Plus/Pods/Mantle/Mantle/extobjc/metamacros.h
+Campus-Plus/Pods/MTLManagedObjectAdapter/LICENSE.md
+Campus-Plus/Pods/MTLManagedObjectAdapter/README.md
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/MTLManagedObjectAdapter.h
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/MTLManagedObjectAdapter.m
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/extobjc/EXTRuntimeExtensions.m
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/extobjc/EXTScope.m
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/extobjc/mtl_moa_EXTKeyPathCoding.h
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/extobjc/mtl_moa_EXTRuntimeExtensions.h
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/extobjc/mtl_moa_EXTScope.h
+Campus-Plus/Pods/MTLManagedObjectAdapter/MTLManagedObjectAdapter/extobjc/mtl_moa_metamacros.h
+Campus-Plus/Pods/Target Support Files/Mantle/Mantle-dummy.m
+Campus-Plus/Pods/Target Support Files/Mantle/Mantle-prefix.pch
+Campus-Plus/Pods/Target Support Files/Mantle/Mantle.xcconfig
+Campus-Plus/Pods/Target Support Files/MTLManagedObjectAdapter/MTLManagedObjectAdapter-dummy.m
+Campus-Plus/Pods/Target Support Files/MTLManagedObjectAdapter/MTLManagedObjectAdapter-prefix.pch
+Campus-Plus/Pods/Target Support Files/MTLManagedObjectAdapter/MTLManagedObjectAdapter.xcconfig

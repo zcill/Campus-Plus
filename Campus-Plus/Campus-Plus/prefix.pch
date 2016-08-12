@@ -16,6 +16,7 @@
 #import <BlocksKit/BlocksKit.h>
 #import <BlocksKit/BlocksKit+UIKit.h>
 #import <ChameleonFramework/Chameleon.h>
+#import <MagicalRecord/MagicalRecord.h>
 
 #import "ZCJxnuDefines.h"
 

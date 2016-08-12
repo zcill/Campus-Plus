@@ -29,6 +29,8 @@
 		4B75B93E1D117FDF0022C06E /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75B9381D117FDF0022C06E /* UIColor+ColorWithHex.m */; };
 		4BC98E071D1A371000207F92 /* ZCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98E061D1A371000207F92 /* ZCLoginViewController.m */; };
 		80A85C3915C1CD1019CA821F /* libPods-Campus-Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */; };
+		D11DE81D1D5DFD6500F4D903 /* CampusPlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D11DE81B1D5DFD6500F4D903 /* CampusPlus.xcdatamodeld */; };
+		D1889BA61D5E022E0072DD15 /* CPCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = D1889BA41D5E022E0072DD15 /* CPCourse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,9 @@
 		9AF2AA719F7553AB158738AD /* Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A7732A92D9AF2C50D87D6EAA /* libPods-Campus-Plus-Campus-PlusUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus-Campus-PlusUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC853724A897D4C86C616A9B /* libPods-Campus-Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Plus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11DE81C1D5DFD6500F4D903 /* CampusPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CampusPlus.xcdatamodel; sourceTree = "<group>"; };
+		D1889BA31D5E022E0072DD15 /* CPCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCourse.h; sourceTree = "<group>"; };
+		D1889BA41D5E022E0072DD15 /* CPCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCourse.m; sourceTree = "<group>"; };
 		D60F84EA3630C9F209A74295 /* Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusUITests/Pods-Campus-Plus-Campus-PlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC224C7929833629C7DF291C /* Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Plus-Campus-PlusTests/Pods-Campus-Plus-Campus-PlusTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,6 +241,7 @@
 		4B75B9211D117FD60022C06E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D11DE81A1D5DFD5000F4D903 /* Model */,
 				4B75B9261D117FD60022C06E /* TabBar */,
 				4B75B9251D117FD60022C06E /* Home */,
 				4B75B9221D117FD60022C06E /* Course */,
@@ -316,6 +322,16 @@
 			children = (
 			);
 			name = Test;
+			sourceTree = "<group>";
+		};
+		D11DE81A1D5DFD5000F4D903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D11DE81B1D5DFD6500F4D903 /* CampusPlus.xcdatamodeld */,
+				D1889BA31D5E022E0072DD15 /* CPCourse.h */,
+				D1889BA41D5E022E0072DD15 /* CPCourse.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		E936494354CB16DF38AFB225 /* Pods */ = {
@@ -612,6 +628,8 @@
 				4B05C5D21D0F07B90050A2AA /* main.m in Sources */,
 				4B7146D31D4799CB00ACC1B6 /* ZCJNHttpTool.m in Sources */,
 				4B75B9291D117FD60022C06E /* ZCCourseTableViewController.m in Sources */,
+				D11DE81D1D5DFD6500F4D903 /* CampusPlus.xcdatamodeld in Sources */,
+				D1889BA61D5E022E0072DD15 /* CPCourse.m in Sources */,
 				4BC98E071D1A371000207F92 /* ZCLoginViewController.m in Sources */,
 				4B389D9B1D40FC8B0017930C /* ZCFileManager.m in Sources */,
 				4B75B93B1D117FDF0022C06E /* BATabBar.m in Sources */,
@@ -878,6 +896,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D11DE81B1D5DFD6500F4D903 /* CampusPlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D11DE81C1D5DFD6500F4D903 /* CampusPlus.xcdatamodel */,
+			);
+			currentVersion = D11DE81C1D5DFD6500F4D903 /* CampusPlus.xcdatamodel */;
+			path = CampusPlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4B05C5C51D0F07B90050A2AA /* Project object */;
 }

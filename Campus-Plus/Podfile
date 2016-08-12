@@ -12,6 +12,8 @@ target 'Campus-Plus' do
   pod 'ChameleonFramework'
   pod 'Fabric'
   pod 'MagicalRecord', '~> 2.3.2'
+  pod 'Mantle'
+  pod 'MTLManagedObjectAdapter'
   pod 'Masonry'
   pod 'MBProgressHUD'
   pod 'MJRefresh'
